@@ -9,28 +9,33 @@
 </head>
 <body>
     <header class="flex items-center justify-between py-4 px-8">
-        <h1 class="text-3xl font-bold text-blue-600">Brandku</h1>
+        <h1 class="text-3xl font-bold text-blue-600">BrandKu</h1>
         <nav class="flex items-center gap-8">
-            <a href="">Beranda</a>
-            <a href="/produk.html">Produk</a>
-            <a href="">Harga</a>
+            <a href="#" class="hover:text-blue-800">Beranda</a>
+            <a href="/produk.html" class="hover:text-blue-800">Produk</a>
+            <a href="/harga.html" class="hover:text-blue-800">Harga</a>
         </nav>
     </header>
     <main>
         <section class="bg-blue-200 py-12">
-            <h1 class="text-center font-bold text-[30px]">Solusi Terbaik Untuk Bisnis</h1>
-            <p class="text-center">
+            <h1 class="text-center font-bold text-[60px]">Solusi Terbaik Untuk Bisnis</h1>
+            <p class="text-center font-light text-[18px] mt-4">
                 Platform All In One Untuk Managemen, Pemasaran, dan Pertumbuhan Bisnis Kecil.
             </p>
         <br>
             <div class="flex justify-center py-6">
-                <button type="button" class="bg-blue-600 text-white py-2 px-3 rounded-lg font-bold text-[18px] hover:bg-blue-800">MULAI GRATIS</button>
+                <button id="mla-btn" type="button" class="bg-blue-600 text-white py-4 px-6 rounded-full text-sm font-semibold text-[18px] hover:bg-blue-800">
+                    MULAI GRATIS
+                </button>
+                <p id="mla-feedback" class="mt-4 text-blue-600 font-medium hidden px-4">
+                    Button clicked!
+                </p>
             </div>
         </section>
 
     <br>
         <section class="bg-white-200 max-w-7xl mx-auto px-6 py-12">
-            <h2 class="text-center font-bold text-[20px]">Mengapa BrandKu?</h2>
+            <h2 class="text-center font-bold text-[35px] py-5">Mengapa BrandKu?</h2>
             <br>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <article class="border bg-blue-100 rounded-lg p-6 flex flex-col items-center gap-4">
@@ -52,7 +57,10 @@
     </main>
 <br>
     <footer>
-        <p>&copy; 2025 BrandKu. All Right Reserved.</p>
+        <p class="text-center text-sm font-semibold py-10">&copy; 2025 BrandKu. All Right Reserved.</p>
     </footer>
+
+    <script src="index.js">
+    </script>
 </body>
 </html>
